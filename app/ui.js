@@ -1,6 +1,6 @@
 /*
- * noVNC: HTML5 VNC client
- * Copyright (C) 2019 The noVNC Authors
+ * jerVNC: HTML5 VNC client
+ * Copyright (C) 2019 The jerVNC Authors
  * Licensed under MPL 2.0 (see LICENSE.txt)
  *
  * See README.md for usage and integration instructions.
@@ -18,7 +18,7 @@ import Keyboard from "../core/input/keyboard.js";
 import RFB from "../core/rfb.js";
 import * as WebUtil from "./webutil.js";
 
-const PAGE_TITLE = "noVNC";
+const PAGE_TITLE = "jerVNC";
 
 const UI = {
 

@@ -1,6 +1,6 @@
-# noVNC API
+# jerVNC API
 
-The interface of the noVNC client consists of a single RFB object that
+The interface of the jerVNC client consists of a single RFB object that
 is instantiated once per connection.
 
 ## RFB

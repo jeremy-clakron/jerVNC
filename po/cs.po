@@ -1,11 +1,11 @@
-# Czech translations for noVNC package.
-# Copyright (C) 2018 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Czech translations for jerVNC package.
+# Copyright (C) 2018 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Petr <petr@kle.cz>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.0.0-testing.2\n"
+"Project-Id-Version: jerVNC 1.0.0-testing.2\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2018-10-19 12:00+0200\n"
 "PO-Revision-Date: 2018-10-19 12:00+0200\n"
@@ -70,8 +70,8 @@ msgid "Password is required"
 msgstr "Je vyžadováno heslo"
 
 #: ../vnc.html:84
-msgid "noVNC encountered an error:"
-msgstr "noVNC narazilo na chybu:"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC narazilo na chybu:"
 
 #: ../vnc.html:94
 msgid "Hide/Show the control bar"

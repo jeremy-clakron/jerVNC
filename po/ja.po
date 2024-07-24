@@ -1,12 +1,12 @@
-# Japanese translations for noVNC package
-# noVNC パッケージに対する日訳
-# Copyright (C) 2019 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Japanese translations for jerVNC package
+# jerVNC パッケージに対する日訳
+# Copyright (C) 2019 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # nnn1590 <nnn1590@nnn1590.org>, 2019-2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.1.0\n"
+"Project-Id-Version: jerVNC 1.1.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2022-12-27 15:24+0100\n"
 "PO-Revision-Date: 2023-03-21 12:42+0900\n"
@@ -76,8 +76,8 @@ msgid "Credentials are required"
 msgstr "資格情報が必要です"
 
 #: ../vnc.html:57
-msgid "noVNC encountered an error:"
-msgstr "noVNC でエラーが発生しました:"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC でエラーが発生しました:"
 
 #: ../vnc.html:67
 msgid "Hide/Show the control bar"

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Copyright (C) 2018 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Baw Appie <pp121324@gmail.com>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.0.0-testing.2\n"
+"Project-Id-Version: jerVNC 1.0.0-testing.2\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2018-01-31 16:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -70,8 +70,8 @@ msgid "Password is required"
 msgstr "비밀번호가 필요합니다."
 
 #: ../vnc.html:91
-msgid "noVNC encountered an error:"
-msgstr "noVNC에 오류가 발생했습니다:"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC에 오류가 발생했습니다:"
 
 #: ../vnc.html:101
 msgid "Hide/Show the control bar"

@@ -1,6 +1,6 @@
 # 1. Internal Modules
 
-The noVNC client is composed of several internal modules that handle
+The jerVNC client is composed of several internal modules that handle
 rendering, input, networking, etc. Each of the modules is designed to
 be cross-browser and independent from each other.
 

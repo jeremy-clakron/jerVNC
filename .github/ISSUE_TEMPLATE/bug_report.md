@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
  - Browser version: [e.g. 22]
 
 **Server (please complete the following information):**
- - noVNC version: [e.g. 1.0.0 or git commit id]
+ - jerVNC version: [e.g. 1.0.0 or git commit id]
  - VNC server: [e.g. QEMU, TigerVNC]
  - WebSocket proxy: [e.g. websockify]
 

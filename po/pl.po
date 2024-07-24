@@ -1,11 +1,11 @@
-# Polish translations for noVNC package.
-# Copyright (C) 2018 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Polish translations for jerVNC package.
+# Copyright (C) 2018 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Mariusz Jamro <mariusz.jamro@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 0.6.1\n"
+"Project-Id-Version: jerVNC 0.6.1\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2017-11-21 19:53+0100\n"
 "PO-Revision-Date: 2017-11-21 19:54+0100\n"
@@ -68,8 +68,8 @@ msgid "Password is required"
 msgstr "Hasło jest wymagane"
 
 #: ../vnc.html:89
-msgid "noVNC encountered an error:"
-msgstr "noVNC napotkało błąd:"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC napotkało błąd:"
 
 #: ../vnc.html:99
 msgid "Hide/Show the control bar"

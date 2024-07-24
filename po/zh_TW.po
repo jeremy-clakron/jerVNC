@@ -1,11 +1,11 @@
-# Traditional Chinese translations for noVNC package.
-# Copyright (C) 2018 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Traditional Chinese translations for jerVNC package.
+# Copyright (C) 2018 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Peter Dave Hello <hsu@peterdavehello.org>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.0.0-testing.2\n"
+"Project-Id-Version: jerVNC 1.0.0-testing.2\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2018-01-10 00:53+0800\n"
 "PO-Revision-Date: 2018-01-10 01:33+0800\n"
@@ -69,8 +69,8 @@ msgid "Password is required"
 msgstr "請提供密碼"
 
 #: ../vnc.html:89
-msgid "noVNC encountered an error:"
-msgstr "noVNC 遇到一個錯誤："
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC 遇到一個錯誤："
 
 #: ../vnc.html:99
 msgid "Hide/Show the control bar"

@@ -1,13 +1,13 @@
-# Spanish translations for noVNC package
-# Traducciones al español para el paquete noVNC.
-# Copyright (C) 2018 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Spanish translations for jerVNC package
+# Traducciones al español para el paquete jerVNC.
+# Copyright (C) 2018 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Juanjo Diaz <juanjo.diazmo@gmail.com>, 2018.
 # Adrian Scillato <ascillato@gmail.com>, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.0.0-testing.2\n"
+"Project-Id-Version: jerVNC 1.0.0-testing.2\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2017-10-06 10:07+0200\n"
 "PO-Revision-Date: 2021-04-23 12:00-0300\n"
@@ -56,8 +56,8 @@ msgid "Disconnect timeout"
 msgstr "Tiempo de desconexión agotado"
 
 #: ../vnc.html:89
-msgid "noVNC encountered an error:"
-msgstr "noVNC ha encontrado un error:"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC ha encontrado un error:"
 
 #: ../vnc.html:99
 msgid "Hide/Show the control bar"

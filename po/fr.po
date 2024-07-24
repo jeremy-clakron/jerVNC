@@ -1,13 +1,13 @@
-# French translations for noVNC package
-# Traductions françaises du paquet noVNC.
-# Copyright (C) 2021 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# French translations for jerVNC package
+# Traductions françaises du paquet jerVNC.
+# Copyright (C) 2021 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Jose <jose.matsuda@canada.ca>, 2021.
 # Lowxorx <lowxorx@lahan.fr>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.2.0\n"
+"Project-Id-Version: jerVNC 1.2.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2020-07-03 16:11+0200\n"
 "PO-Revision-Date: 2022-04-25 23:40+0200\n"
@@ -72,8 +72,8 @@ msgid "Credentials are required"
 msgstr "Les identifiants sont requis"
 
 #: ../vnc.html:74
-msgid "noVNC encountered an error:"
-msgstr "noVNC a rencontré une erreur :"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC a rencontré une erreur :"
 
 #: ../vnc.html:84
 msgid "Hide/Show the control bar"

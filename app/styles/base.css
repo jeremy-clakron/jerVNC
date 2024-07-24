@@ -1,7 +1,7 @@
 /*
- * noVNC base CSS
- * Copyright (C) 2019 The noVNC Authors
- * noVNC is licensed under the MPL 2.0 (see LICENSE.txt)
+ * jerVNC base CSS
+ * Copyright (C) 2019 The jerVNC Authors
+ * jerVNC is licensed under the MPL 2.0 (see LICENSE.txt)
  * This file is licensed under the 2-Clause BSD license (see LICENSE.txt).
  */
 
@@ -549,7 +549,7 @@ html {
   display: none;
 }
 
-/* noVNC Touch Device only buttons */
+/* jerVNC Touch Device only buttons */
 :root:not(.noVNC_connected) #noVNC_mobile_buttons {
   display: none;
 }
@@ -874,7 +874,7 @@ html {
   ime-mode: disabled;
 }
 
-/*Default noVNC logo.*/
+/*Default jerVNC logo.*/
 /* From: http://fonts.googleapis.com/css?family=Orbitron:700 */
 @font-face {
   font-family: 'Orbitron';

@@ -1,4 +1,4 @@
-// noVNC specific assertions
+// jerVNC specific assertions
 chai.use(function (_chai, utils) {
     function _equal(a, b) {
         return a === b;

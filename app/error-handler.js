@@ -1,6 +1,6 @@
 /*
- * noVNC: HTML5 VNC client
- * Copyright (C) 2019 The noVNC Authors
+ * jerVNC: HTML5 VNC client
+ * Copyright (C) 2019 The jerVNC Authors
  * Licensed under MPL 2.0 (see LICENSE.txt)
  *
  * See README.md for usage and integration instructions.
@@ -52,7 +52,7 @@ function handleError(event, err) {
             .classList.add("noVNC_open");
 
     } catch (exc) {
-        document.write("noVNC encountered an error.");
+        document.write("jerVNC encountered an error.");
     }
 
     // Try to disable keyboard interaction, best effort

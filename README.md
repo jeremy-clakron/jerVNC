@@ -1,20 +1,20 @@
-## noVNC: HTML VNC Client Library and Application
+## jerVNC: HTML VNC Client Library and Application
 
-[![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)
-[![Lint Status](https://github.com/novnc/noVNC/workflows/Lint/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ALint)
+[![Test Status](https://github.com/novnc/jerVNC/workflows/Test/badge.svg)](https://github.com/novnc/jerVNC/actions?query=workflow%3ATest)
+[![Lint Status](https://github.com/novnc/jerVNC/workflows/Lint/badge.svg)](https://github.com/novnc/jerVNC/actions?query=workflow%3ALint)
 
 ### Description
 
-noVNC is both a HTML VNC client JavaScript library and an application built on
-top of that library. noVNC runs well in any modern browser including mobile
+jerVNC is both a HTML VNC client JavaScript library and an application built on
+top of that library. jerVNC runs well in any modern browser including mobile
 browsers (iOS and Android).
 
-Many companies, projects and products have integrated noVNC including
+Many companies, projects and products have integrated jerVNC including
 [OpenStack](http://www.openstack.org),
 [OpenNebula](http://opennebula.org/),
 [LibVNCServer](http://libvncserver.sourceforge.net), and
 [ThinLinc](https://cendio.com/thinlinc). See
-[the Projects and Companies wiki page](https://github.com/novnc/noVNC/wiki/Projects-and-companies-using-noVNC)
+[the Projects and Companies wiki page](https://github.com/novnc/jerVNC/wiki/Projects-and-companies-using-jerVNC)
 for a more complete list with additional info and links.
 
 ### Table of Contents
@@ -33,23 +33,23 @@ for a more complete list with additional info and links.
 
 The project website is found at [novnc.com](http://novnc.com).
 
-If you are a noVNC developer/integrator/user (or want to be) please join the
-[noVNC discussion group](https://groups.google.com/forum/?fromgroups#!forum/novnc).
+If you are a jerVNC developer/integrator/user (or want to be) please join the
+[jerVNC discussion group](https://groups.google.com/forum/?fromgroups#!forum/novnc).
 
 Bugs and feature requests can be submitted via
-[github issues](https://github.com/novnc/noVNC/issues). If you have questions
-about using noVNC then please first use the
+[github issues](https://github.com/novnc/jerVNC/issues). If you have questions
+about using jerVNC then please first use the
 [discussion group](https://groups.google.com/forum/?fromgroups#!forum/novnc).
-We also have a [wiki](https://github.com/novnc/noVNC/wiki/) with lots of
+We also have a [wiki](https://github.com/novnc/jerVNC/wiki/) with lots of
 helpful information.
 
-If you are looking for a place to start contributing to noVNC, a good place to
+If you are looking for a place to start contributing to jerVNC, a good place to
 start would be the issues that are marked as
-["patchwelcome"](https://github.com/novnc/noVNC/issues?labels=patchwelcome).
+["patchwelcome"](https://github.com/novnc/jerVNC/issues?labels=patchwelcome).
 Please check our
-[contribution guide](https://github.com/novnc/noVNC/wiki/Contributing) though.
+[contribution guide](https://github.com/novnc/jerVNC/wiki/Contributing) though.
 
-If you want to show appreciation for noVNC you could donate to a great non-
+If you want to show appreciation for jerVNC you could donate to a great non-
 profits such as:
 [Compassion International](http://www.compassion.com/),
 [SIL](http://www.sil.org),
@@ -79,8 +79,8 @@ profits such as:
 
 Running in Firefox before and after connecting:
 
-<img src="http://novnc.com/img/noVNC-1-login.png" width=400>&nbsp;
-<img src="http://novnc.com/img/noVNC-3-connected.png" width=400>
+<img src="http://novnc.com/img/jerVNC-1-login.png" width=400>&nbsp;
+<img src="http://novnc.com/img/jerVNC-3-connected.png" width=400>
 
 See more screenshots
 [here](http://novnc.com/screenshots.html).
@@ -88,7 +88,7 @@ See more screenshots
 
 ### Browser Requirements
 
-noVNC uses many modern web technologies so a formal requirement list is
+jerVNC uses many modern web technologies so a formal requirement list is
 not available. However these are the minimum versions we are currently
 aware of:
 
@@ -97,12 +97,12 @@ aware of:
 
 ### Server Requirements
 
-noVNC follows the standard VNC protocol, but unlike other VNC clients it does
+jerVNC follows the standard VNC protocol, but unlike other VNC clients it does
 require WebSockets support. Many servers include support (e.g.
 [x11vnc/libvncserver](http://libvncserver.sourceforge.net/),
 [QEMU](http://www.qemu.org/), and
 [MobileVNC](http://www.smartlab.at/mobilevnc/)), but for the others you need to
-use a WebSockets to TCP socket proxy. noVNC has a sister project
+use a WebSockets to TCP socket proxy. jerVNC has a sister project
 [websockify](https://github.com/novnc/websockify) that provides a simple such
 proxy.
 
@@ -125,11 +125,11 @@ proxy.
   configured, and enjoy!
 
 ### Installation from Snap Package
-Running the command below will install the latest release of noVNC from Snap:
+Running the command below will install the latest release of jerVNC from Snap:
 
 `sudo snap install novnc`
 
-#### Running noVNC from Snap Directly
+#### Running jerVNC from Snap Directly
 
 You can run the Snap-package installed novnc directly with, for example:
 
@@ -139,7 +139,7 @@ If you want to use certificate files, due to standard Snap confinement restricti
   
   `novnc --listen 8443 --cert ~jsmith/snap/novnc/current/self.crt --key ~jsmith/snap/novnc/current/self.key --vnc ubuntu.example.com:5901`
 
-#### Running noVNC from Snap as a Service (Daemon)
+#### Running jerVNC from Snap as a Service (Daemon)
 The Snap package also has the capability to run a 'novnc' service which can be 
 configured to listen on multiple ports connecting to multiple VNC servers 
 (effectively a service runing multiple instances of novnc).
@@ -191,11 +191,11 @@ services.n6082.vnc
 
 ### Integration and Deployment
 
-Please see our other documents for how to integrate noVNC in your own software,
-or deploying the noVNC application in production environments:
+Please see our other documents for how to integrate jerVNC in your own software,
+or deploying the jerVNC application in production environments:
 
-* [Embedding](docs/EMBEDDING.md) - For the noVNC application
-* [Library](docs/LIBRARY.md) - For the noVNC JavaScript library
+* [Embedding](docs/EMBEDDING.md) - For the jerVNC application
+* [Library](docs/LIBRARY.md) - For the jerVNC JavaScript library
 
 
 ### Authors/Contributors
@@ -223,5 +223,5 @@ that list and you think you should be, feel free to send a PR to fix that.
     * Pako : Vitaly Puzrin (https://github.com/nodeca/pako)
 
 Do you want to be on this list? Check out our
-[contribution guide](https://github.com/novnc/noVNC/wiki/Contributing) and
+[contribution guide](https://github.com/novnc/jerVNC/wiki/Contributing) and
 start hacking!

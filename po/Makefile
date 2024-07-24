@@ -13,14 +13,14 @@ update-po: $(POFILES)
 update-js: $(JSONFILES)
 
 %.po: FORCE
-	msgmerge --update --lang=$* $@ noVNC.pot
+	msgmerge --update --lang=$* $@ jerVNC.pot
 ../app/locale/%.json: FORCE
 	./po2js $*.po $@
 
 update-pot:
-	xgettext --output=noVNC.js.pot \
-		--copyright-holder="The noVNC Authors" \
-		--package-name="noVNC" \
+	xgettext --output=jerVNC.js.pot \
+		--copyright-holder="The jerVNC Authors" \
+		--package-name="jerVNC" \
 		--package-version="$(VERSION)" \
 		--msgid-bugs-address="novnc@googlegroups.com" \
 		--add-comments=TRANSLATORS: \
@@ -29,8 +29,8 @@ update-pot:
 		../app/*.js \
 		../core/*.js \
 		../core/input/*.js
-	./xgettext-html --output=noVNC.html.pot \
+	./xgettext-html --output=jerVNC.html.pot \
 		../vnc.html
-	msgcat --output-file=noVNC.pot \
-		--sort-by-file noVNC.js.pot noVNC.html.pot
-	rm -f noVNC.js.pot noVNC.html.pot
+	msgcat --output-file=jerVNC.pot \
+		--sort-by-file jerVNC.js.pot jerVNC.html.pot
+	rm -f jerVNC.js.pot jerVNC.html.pot

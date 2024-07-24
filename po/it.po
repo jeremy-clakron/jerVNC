@@ -1,12 +1,12 @@
-# Italian translations for noVNC
-# Traduzione italiana di noVNC
-# Copyright (C) 2022 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Italian translations for jerVNC
+# Traduzione italiana di jerVNC
+# Copyright (C) 2022 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Fabio Fantoni <fabio.fantoni@m2r.biz>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.3.0\n"
+"Project-Id-Version: jerVNC 1.3.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2021-08-27 16:03+0200\n"
 "PO-Revision-Date: 2022-09-08 13:27+0200\n"
@@ -72,8 +72,8 @@ msgid "Credentials are required"
 msgstr "Le credenziali sono obbligatorie"
 
 #: ../vnc.html:61
-msgid "noVNC encountered an error:"
-msgstr "noVNC ha riscontrato un errore:"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC ha riscontrato un errore:"
 
 #: ../vnc.html:71
 msgid "Hide/Show the control bar"

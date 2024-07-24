@@ -1,6 +1,6 @@
 /*
- * noVNC: HTML5 VNC client
- * Copyright (C) 2019 The noVNC Authors
+ * jerVNC: HTML5 VNC client
+ * Copyright (C) 2019 The jerVNC Authors
  * Licensed under MPL 2.0 (see LICENSE.txt)
  *
  * See README.md for usage and integration instructions.
@@ -205,7 +205,7 @@ function logOnce(msg, level = "warn") {
     }
 }
 
-let cookiesMsg = "Couldn't access noVNC settings, are cookies disabled?";
+let cookiesMsg = "Couldn't access jerVNC settings, are cookies disabled?";
 
 function localStorageGet(name) {
     let r;

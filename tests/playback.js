@@ -1,6 +1,6 @@
 /*
- * noVNC: HTML5 VNC client
- * Copyright (C) 2018 The noVNC Authors
+ * jerVNC: HTML5 VNC client
+ * Copyright (C) 2018 The jerVNC Authors
  * Licensed under MPL 2.0 (see LICENSE.txt)
  */
 
@@ -15,7 +15,7 @@ if (window.setImmediate === undefined) {
     window.setImmediate = (func) => {
         const index = _immediateIdCounter++;
         _immediateFuncs[index] = func;
-        window.postMessage("noVNC immediate trigger:" + index, "*");
+        window.postMessage("jerVNC immediate trigger:" + index, "*");
         return index;
     };
 
@@ -25,11 +25,11 @@ if (window.setImmediate === undefined) {
 
     window.addEventListener("message", (event) => {
         if ((typeof event.data !== "string") ||
-            (event.data.indexOf("noVNC immediate trigger:") !== 0)) {
+            (event.data.indexOf("jerVNC immediate trigger:") !== 0)) {
             return;
         }
 
-        const index = event.data.slice("noVNC immediate trigger:".length);
+        const index = event.data.slice("jerVNC immediate trigger:".length);
 
         const callback = _immediateFuncs[index];
         if (callback === undefined) {

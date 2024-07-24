@@ -8,7 +8,7 @@
     "Reconnecting...": "重新连接中...",
     "Password is required": "请提供密码",
     "Disconnect timeout": "超时断开",
-    "noVNC encountered an error:": "noVNC 遇到一个错误：",
+    "jerVNC encountered an error:": "jerVNC 遇到一个错误：",
     "Hide/Show the control bar": "显示/隐藏控制栏",
     "Move/Drag Viewport": "移动/拖动窗口",
     "viewport drag": "窗口拖动",

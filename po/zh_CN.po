@@ -1,11 +1,11 @@
-# Simplified Chinese translations for noVNC package.
-# Copyright (C) 2020 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Simplified Chinese translations for jerVNC package.
+# Copyright (C) 2020 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Peter Dave Hello <hsu@peterdavehello.org>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.1.0\n"
+"Project-Id-Version: jerVNC 1.1.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2018-01-10 00:53+0800\n"
 "PO-Revision-Date: 2020-01-02 13:19+0800\n"
@@ -52,8 +52,8 @@ msgid "Disconnect timeout"
 msgstr "超时断开"
 
 #: ../vnc.html:89
-msgid "noVNC encountered an error:"
-msgstr "noVNC 遇到一个错误："
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC 遇到一个错误："
 
 #: ../vnc.html:99
 msgid "Hide/Show the control bar"

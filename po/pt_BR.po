@@ -1,11 +1,11 @@
-# Portuguese translations for noVNC package.
-# Copyright (C) 2021 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Portuguese translations for jerVNC package.
+# Copyright (C) 2021 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 #  <liddack@outlook.com>, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.2.0\n"
+"Project-Id-Version: jerVNC 1.2.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2021-03-15 21:55-0300\n"
 "PO-Revision-Date: 2021-03-15 22:09-0300\n"
@@ -71,8 +71,8 @@ msgid "Credentials are required"
 msgstr "Credenciais são obrigatórias"
 
 #: ../vnc.html:61
-msgid "noVNC encountered an error:"
-msgstr "O noVNC encontrou um erro:"
+msgid "jerVNC encountered an error:"
+msgstr "O jerVNC encontrou um erro:"
 
 #: ../vnc.html:71
 msgid "Hide/Show the control bar"

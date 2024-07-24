@@ -1,12 +1,12 @@
-# Dutch translations for noVNC package
-# Nederlandse vertalingen voor het pakket noVNC.
-# Copyright (C) 2018 The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Dutch translations for jerVNC package
+# Nederlandse vertalingen voor het pakket jerVNC.
+# Copyright (C) 2018 The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # Loek Janssen <loekjanssen@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.1.0\n"
+"Project-Id-Version: jerVNC 1.1.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2019-04-09 11:06+0100\n"
 "PO-Revision-Date: 2019-04-09 17:17+0100\n"
@@ -71,8 +71,8 @@ msgid "Password is required"
 msgstr "Wachtwoord is vereist"
 
 #: ../vnc.html:80
-msgid "noVNC encountered an error:"
-msgstr "noVNC heeft een fout bemerkt:"
+msgid "jerVNC encountered an error:"
+msgstr "jerVNC heeft een fout bemerkt:"
 
 #: ../vnc.html:90
 msgid "Hide/Show the control bar"

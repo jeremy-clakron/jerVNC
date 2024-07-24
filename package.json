@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/novnc/noVNC.git"
+    "url": "git+https://github.com/novnc/jerVNC.git"
   },
   "author": "Joel Martin <github@martintribe.org> (https://github.com/kanaka)",
   "contributors": [
@@ -32,9 +32,9 @@
   ],
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/novnc/noVNC/issues"
+    "url": "https://github.com/novnc/jerVNC/issues"
   },
-  "homepage": "https://github.com/novnc/noVNC",
+  "homepage": "https://github.com/novnc/jerVNC",
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",

@@ -1,6 +1,6 @@
 /*
- * noVNC: HTML5 VNC client
- * Copyright (C) 2020 The noVNC Authors
+ * jerVNC: HTML5 VNC client
+ * Copyright (C) 2020 The jerVNC Authors
  * Licensed under MPL 2.0 (see LICENSE.txt)
  *
  * See README.md for usage and integration instructions.
@@ -97,7 +97,7 @@ export default class RFB extends EventTargetMixin {
         // We rely on modern APIs which might not be available in an
         // insecure context
         if (!window.isSecureContext) {
-            Log.Error("noVNC requires a secure context (TLS). Expect crashes!");
+            Log.Error("jerVNC requires a secure context (TLS). Expect crashes!");
         }
 
         super();

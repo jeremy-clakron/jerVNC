@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR The noVNC Authors
-# This file is distributed under the same license as the noVNC package.
+# Copyright (C) YEAR The jerVNC Authors
+# This file is distributed under the same license as the jerVNC package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: noVNC 1.5.0\n"
+"Project-Id-Version: jerVNC 1.5.0\n"
 "Report-Msgid-Bugs-To: novnc@googlegroups.com\n"
 "POT-Creation-Date: 2024-06-03 14:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -79,7 +79,7 @@ msgid "Credentials are required"
 msgstr ""
 
 #: ../vnc.html:55
-msgid "noVNC encountered an error:"
+msgid "jerVNC encountered an error:"
 msgstr ""
 
 #: ../vnc.html:65

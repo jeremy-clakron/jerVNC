@@ -12,7 +12,7 @@
     "New connection has been rejected with reason: ": "Une nouvelle connexion a été rejetée avec motif : ",
     "New connection has been rejected": "Une nouvelle connexion a été rejetée",
     "Credentials are required": "Les identifiants sont requis",
-    "noVNC encountered an error:": "noVNC a rencontré une erreur :",
+    "jerVNC encountered an error:": "jerVNC a rencontré une erreur :",
     "Hide/Show the control bar": "Masquer/Afficher la barre de contrôle",
     "Drag": "Faire glisser",
     "Move/Drag Viewport": "Déplacer/faire glisser le Viewport",
